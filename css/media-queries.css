@@ -1,0 +1,87 @@
+/* media queries */
+
+@media only screen and (max-width: 500px) {
+body {
+        background-color: rgba(219,10,91, 0.075)
+    }
+	
+html{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-size:0.7500em;
+}
+
+figcaption{
+	display:none;
+}
+
+div.gallery{
+	/* margin: 5px;*/
+	margin:0 auto;
+    border: 2px solid #ccc;
+	display:inherit;
+    width: 75%;
+	height:auto;
+	vertical-align:top;
+	}
+
+.singlePawIcon{
+	display: none;
+}
+
+.paragraphs{
+	display:block;
+	width:100%;
+}
+
+
+.responsive {
+	margin:0 auto;
+	padding-bottom:3px;
+}
+
+.videoFrame{
+	width:75%;
+}
+
+  
+#socialMedia2{
+	display:inline-flex;
+	width:80%;
+	position: static;
+}
+
+#socialMedia1{
+	display:none;
+	}
+	
+#block2{
+	margin:inherit;
+	position:inherit;
+	height: 150%;
+	/* background-color:orange;*/
+}
+
+
+#dottiePic{
+	border:2px solid black;
+	border-radius: 6px;
+	width:100%;
+}
+
+#demo{
+	display:none;
+}
+
+}
+
+
+@media only screen and (max-width: 800px){
+.responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+ 

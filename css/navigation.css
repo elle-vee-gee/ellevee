@@ -1,0 +1,115 @@
+a, navlink {
+  
+  text-transform: uppercase;
+  margin: 1%;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration:none;
+}
+
+/* selected link */
+.active {
+ text-decoration:none;
+ border:2px solid #6D052D;
+ padding-left:2px;
+ padding-right:4px;
+}
+
+
+/* visited link */
+
+a:visited {
+  color: cyan;
+  text-decoration:underline;
+}
+
+/* nav bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 12px 12px;
+    overflow: hidden;
+    background-color:#AF0848;
+}
+
+li {
+    float: left;
+	padding-left:20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+	border:2px solid #AF0848;
+	padding-left:2px;
+	padding-right:4px;
+	}
+
+li a:hover {
+    background-color: #6D052D;
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+#demo{
+	float:right;
+	margin-top:-35px;
+	margin-right:20px;
+	border:2px solid #AF0848;
+	padding-left:2px;
+	padding-right:4px;
+}
+
+
+#footer{
+	margin-top: 10px;
+    padding:10px 0 10px 0;
+	bottom:0;
+	background-color:silver;
+	/*height:50px;*/
+}
+
+#copyright{
+	display:inline;
+}
+
+#socialMedia1{
+	position:fixed;
+	top:130px;
+	right:0;
+	width:60px;
+}
+
+#socialMedia2{
+display:none;
+}
+
+.fa {
+  padding: 8px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 2px;
+  /*border-radius: 50%;*/
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook{
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}

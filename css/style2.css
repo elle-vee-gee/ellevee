@@ -1,0 +1,198 @@
+/* ID selectors */
+
+#header{
+	margin:0 auto;
+	background-color:#db0a5b;
+	height:20%;
+
+	color:#ffffff;
+	font-size: 110%;
+	width:100%;
+	box-shadow:0px 2px 5px 1px #808B96;
+}
+
+
+
+#container{
+	margin: 0 auto;
+	position:relative;
+	height:100%;
+	width:100%;
+	min-height:100vh;
+	margin-bottom:-50px;
+	
+}
+
+#container:after{
+	content:"";
+	display:block;
+	height:50px;
+}
+
+#block1{
+	margin:0 auto;
+	height:auto;
+	padding:6px;
+	margin-top:-10px;
+	display:block;
+	/* background-color:green;*/
+}
+
+#block2{
+	margin:inherit;
+	width:85%;
+	display:inherit;
+	height:auto;
+	/* background-color:orange;*/
+}
+#block3{
+	margin:0 auto;
+	position:inherit;
+	height:auto;
+	width:85%;
+	display:inherit;
+	/* background-color:cyan;*/
+}
+
+
+#dottiePic{
+	border:solid thick;
+	display:block;
+	width:100%;
+	margin: 0 auto;
+	border-radius: 18px;
+}
+
+
+/* Classes */
+div.gallery{
+	/* margin: 5px;*/
+	border: 2px solid #ccc;
+	display:inherit;
+    width: 225px;
+	height:295px;
+	vertical-align:top;
+	background-color:white;
+	border-radius: 6px;
+	}
+
+div.gallery:hover {
+    border: 2px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+	margin-left:-2.5px;
+	border-radius: 6px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+	font-family: 'Gochi Hand', "Comic Sans MS", sans-serif;
+	font-size:115%;
+}
+
+.center{
+	text-align:center;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.labelBar{
+	font-family: 'Gochi Hand', "Comic Sans MS", sans-serif;
+	font-size: 145%;
+	border-bottom:solid medium #DB0A5A;
+}
+
+.paragraphs{
+	display:inline-block;
+	margin:1%;
+	position:inherit;
+	width:30%;
+	vertical-align:top;
+}
+
+.pawBackground{
+	background-image: url("../images/paw_print.png");
+	background-origin: content-box;
+	background-size: 2.5%;
+}
+
+.responsive {
+	display:inline-block;
+	margin:0 auto;
+	text-align:center;
+	padding-bottom:3px;
+}
+
+.singlePawIcon{
+	width:16px;
+	display:inline;
+	float:left;
+	padding-right:6px;
+}
+
+.vRule{
+	width:3px;
+	height:20px;
+	padding:0;
+	margin:0;
+	opacity: 0.25;
+	}
+	
+	
+.videoFrame{
+	width:480px;
+	height:270px;
+	border:0;
+}
+
+/* Standard Tags */
+
+figcaption {
+  font-family: 'Gochi Hand', "Comic Sans MS", sans-serif;
+  font-size: 125%;
+  font-weight: 500;
+  color: #41031C;
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding-top: 6px;
+}
+
+h1 {
+  font-family: 'Gochi Hand', "Comic Sans MS", sans-serif;
+  font-size: 320%;
+  color: inherit;
+  margin:0;
+  padding:0;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px black;
+}
+
+h2 {
+  color: #000000;
+  margin-left:35px;
+  padding:0;
+  line-height:1;
+}
+
+html{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size:16px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
