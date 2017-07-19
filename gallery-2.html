@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="css/navigation.css">
+	<link rel="stylesheet" href="css/style2.css">
+	<link rel="stylesheet" href="css/media-queries.css">
+	<link rel="stylesheet" href="css/lightbox.css">
+	<link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Gallery</title>
+</head>
+<body>
+<div id="container" >
+    <!-- Add font awesome icons -->
+	<div id="socialMedia1">
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-youtube"></a>
+  </div>
+  <header id="header" class="pawBackground">
+    <div id="123"><nav class="center">
+      <h1 tabindex="1">Dottie Girl</h1>
+      <ul>
+  <li ><a href="index2.html" tabindex="2">Home</a></li>
+  <li><img src="images/vertical-rule.png" alt="vertical rule" class="vRule"></li>
+  <li><a class="active" href="gallery-2.html" tabindex="3">Gallery</a></li>
+  <li><img src="images/vertical-rule.png" alt="vertical rule" class="vRule"></li>
+  <li><a href="videos.html" tabindex="4">Videos</a></li>
+</ul>
+    </nav>
+	</div>
+	<div id="demo">
+<script>
+var d = new Date();
+document.getElementById("demo").innerHTML = d.toDateString();
+</script>
+	</div>
+  </header>
+  <div id="block1">
+    <h2>Gallery</h2>
+    <div id="block2">
+      <p>Here are some of my favorite pictures of Dottie Mae throughout the years.</p>
+    </div>
+    <div id="block3" tabindex="5" class="center">
+	<!--Start the carousel here-->
+	<div class="row">
+  <div class="gallery">
+    <img src="images/image_001.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="gallery">
+    <img src="images/image_002.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="gallery">
+    <img src="images/image_003.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="gallery">
+    <img src="images/image_004.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+    <div class="gallery">
+    <img src="images/image_005.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+  </div>
+     <div class="gallery">
+    <img src="images/image_006.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+  </div>
+
+     <div class="gallery">
+    <img src="images/image_007.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+  </div>
+       <div class="gallery">
+    <img src="images/image_008.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+  </div>
+  
+  <div class="gallery">
+    <img src="images/image_009.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+  </div>
+  
+  <div class="gallery">
+    <img src="images/image_010.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow">
+  </div>
+   <div class="gallery">
+    <img src="images/image_011.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow">
+  </div>
+  <div class="gallery">
+    <img src="images/image_012.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow">
+  </div>
+  
+  
+  
+  
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+  
+    <div class="mySlides">
+      <div class="numbertext">1 / #</div>
+        <img src="images/image_001-b.jpg" class="imageLightbox" alt="Baby Dottie">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / #</div>
+        <img src="images/image_002-b.jpg" class="imageLightbox" alt="Watcha Looking At Uncle?">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / #</div>
+        <img src="images/image_003-b.jpg" class="imageLightbox" alt="I'm Hungry MeeMaw!">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / #</div>
+        <img src="images/image_004.jpg" class="imageLightbox" alt="Dottie Noire">
+    </div>
+	
+	    <div class="mySlides">
+      <div class="numbertext">5 / #</div>
+        <img src="images/image_005-b.jpg" class="imageLightbox" alt="She has a Human Face Sometimes">
+    </div>
+	
+		 <div class="mySlides">
+      <div class="numbertext">6 / #</div>
+        <img src="images/image_006-b.jpg" class="imageLightbox" alt="Dottie With Her Red Ball">
+    </div>
+
+	<div class="mySlides">
+      <div class="numbertext">7 / #</div>
+        <img src="images/image_007-b.jpg" class="imageLightbox" alt="Chillin Out with Belly Rubs">
+    </div>
+	
+		<div class="mySlides">
+      <div class="numbertext">8 / #</div>
+        <img src="images/image_008-b.jpg" class="imageLightbox" alt="Going for a Car Ride!">
+    </div>
+	
+			<div class="mySlides">
+      <div class="numbertext">9 / #</div>
+        <img src="images/image_009-b.jpg" class="imageLightbox" alt="I Just Took a Bath">
+    </div>
+	
+			<div class="mySlides">
+      <div class="numbertext">10 / #</div>
+        <img src="images/image_010-b.jpg" class="imageLightbox" alt="Dottie's Other Family">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">11 / #</div>
+        <img src="images/image_011-b.jpg" class="imageLightbox" alt="When Are You Going to Give Me a Treat?">
+    </div>
+	<div class="mySlides">
+      <div class="numbertext">12 / #</div>
+        <img src="images/image_012-b.jpg" class="imageLightbox" alt="Riding in Cars with Boys">
+    </div>
+	
+	
+	
+	
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+  
+  
+  
+  <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  </div>
+</div>
+	
+	<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("imageLightbox");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+	
+	<!--End the carousel here-->
+
+</div>
+</div>
+<!--End Container Div --></div>
+
+<div id="footer" class="center">
+<div id="copyright" tabindex="">
+   <footer>Copyright 2017&nbsp;&nbsp;&#9679;&nbsp;&nbsp;Created by Laura V. Guzman</footer>
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  </div>
+    <!-- Add font awesome icons for media queries -->
+  <div id="socialMedia2">
+<a href="#" class="fa fa-facebook" tabindex=""></a>
+<a href="#" class="fa fa-twitter" tabindex=""></a>
+<a href="#" class="fa fa-youtube" tabindex=""></a>
+  </div>
+
+</body>
+</html>
