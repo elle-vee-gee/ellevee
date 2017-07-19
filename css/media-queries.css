@@ -45,6 +45,8 @@ div.gallery{
 	width:75%;
 }
 
+
+
   
 #socialMedia2{
 	display:inline-flex;
@@ -77,11 +79,6 @@ div.gallery{
 }
 
 
-@media only screen and (max-width: 800px){
-.responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-}
+
 
  

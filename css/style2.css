@@ -65,8 +65,8 @@
 
 
 /* Classes */
-div.gallery{
-	/* margin: 5px;*/
+/*Old Image setup */
+/*div.gallery{
 	border: 2px solid #ccc;
 	display:inherit;
     width: 225px;
@@ -74,6 +74,17 @@ div.gallery{
 	vertical-align:top;
 	background-color:white;
 	border-radius: 6px;
+	}*/
+	
+div.gallery{
+	margin: 5px;
+	border: 2px solid #ccc;
+    width: 225px;
+	height: 225px;
+	vertical-align:top;
+	background-color:white;
+	border-radius: 6px;
+	float: left;
 	}
 
 div.gallery:hover {
@@ -82,8 +93,7 @@ div.gallery:hover {
 
 div.gallery img {
     width: 100%;
-    height: auto;
-	margin-left:-2.5px;
+    
 	border-radius: 6px;
 }
 
@@ -103,6 +113,7 @@ div.desc {
     display: table;
     clear: both;
 }
+
 
 .labelBar{
 	font-family: 'Gochi Hand', "Comic Sans MS", sans-serif;
@@ -128,8 +139,7 @@ div.desc {
 	display:inline-block;
 	margin:0 auto;
 	text-align:center;
-	padding-bottom:3px;
-}
+	}
 
 .singlePawIcon{
 	width:16px;
