@@ -63,13 +63,14 @@ li a:hover {
 
 
 #footer{
-	margin-top: 10px;
+	margin-top:10px;
     padding:10px 0 10px 0;
 	bottom:0;
 	background-color:silver;
 	height:auto;
-	position:bottom;
-}
+	display:block;
+	z-index:10;
+	}
 
 #copyright{
 	display:inline;
@@ -78,9 +79,9 @@ li a:hover {
 #socialMedia1{
 	position:fixed;
 	top:130px;
-	right:0;
+	right:0px;
 	width:60px;
-}
+	}
 
 #socialMedia2{
 display:none;

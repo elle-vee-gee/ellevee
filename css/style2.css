@@ -2,11 +2,13 @@
 
 #header{
 	margin:0 auto;
+	padding-top:20px;
 	background-color:#db0a5b;
 	color:#ffffff;
 	font-size: 110%;
 	width:100%;
 	box-shadow:0px 2px 5px 1px #808B96;
+	position:fixed !important;
 }
 
 
@@ -17,14 +19,18 @@
 	height:100%;
 	width:100%;
 	min-height:100vh;
-	margin-bottom:-50px;
 	
-}
+	}
 
 #container:after{
 	content:"";
 	display:block;
-	height:50px;
+	}
+
+#block1:before{
+	content:"";
+	padding-top:125px;
+	display:block;
 }
 
 #block1{
@@ -45,11 +51,10 @@
 }
 #block3{
 	margin:0 auto;
-	position:inherit;
-	height:auto;
-	width:85%;
-	display:inherit;
-	/* background-color:cyan;*/
+    width:85%;
+	display:block;
+	/*background-color:cyan;*/
+	
 }
 
 
@@ -61,22 +66,10 @@
 	border-radius: 18px;
 }
 
-
-/* Classes */
-/*Old Image setup */
-/*div.gallery{
-	border: 2px solid #ccc;
-	display:inherit;
-    width: 225px;
-	height:295px;
-	vertical-align:top;
-	background-color:white;
-	border-radius: 6px;
-	}*/
 	
 div.gallery{
 	margin: 5px;
-	border: 2px solid #ccc;
+	border: 2px solid black;
     width: 225px;
 	height: 225px;
 	vertical-align:top;
@@ -110,6 +103,13 @@ div.desc {
     content: "";
     display: table;
     clear: both;
+}
+
+.comparisonImages{
+	width:125px;
+	border:2px solid black;
+	border-radius:6px;
+	display:inline;
 }
 
 
@@ -169,7 +169,7 @@ figcaption {
   font-weight: 500;
   color: #41031C;
   display: block;
-  text-align: center;
+  text-align: left;
   width: 100%;
   padding-top: 6px;
 }
