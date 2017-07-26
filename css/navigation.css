@@ -59,7 +59,7 @@ li a:hover {
 	border:2px solid #AF0848;
 	padding-left:2px;
 	padding-right:4px;
-}
+	}
 
 
 #footer{
@@ -67,7 +67,8 @@ li a:hover {
     padding:10px 0 10px 0;
 	bottom:0;
 	background-color:silver;
-	/*height:50px;*/
+	height:auto;
+	position:bottom;
 }
 
 #copyright{
