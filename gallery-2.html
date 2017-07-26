@@ -1,4 +1,5 @@
-<!DOCTYPE html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,13 +14,14 @@
   <title>Gallery</title>
 </head>
 <body>
-<div id="container" >
-    <!-- Add font awesome icons -->
+<!-- Add font awesome icons -->
 	<div id="socialMedia1">
 		<a href="#" class="fa fa-facebook"></a>
 		<a href="#" class="fa fa-twitter"></a>
 		<a href="#" class="fa fa-youtube"></a>
   </div>
+<div id="container" >
+    
   <header id="header" class="pawBackground">
     <div id="123"><nav class="center">
       <h1 tabindex="1">Dottie Girl</h1>
@@ -47,49 +49,45 @@ document.getElementById("demo").innerHTML = d.toDateString();
     <div id="block3" tabindex="5" class="center">
 	<!--Start the carousel here-->
 	<div class="row">
-  <div class="gallery">
-    <img src="images/image_001.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  <div class="gallery" tabindex="6">
+    <img src="images/image_001.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="Baby Dottie" >
   </div>
-  <div class="gallery">
-    <img src="images/image_002.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  <div class="gallery" tabindex="7">
+    <img src="images/image_002.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" alt="Watcha Looking At Uncle?">
   </div>
-  <div class="gallery">
-    <img src="images/image_003.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  <div class="gallery" tabindex="8">
+    <img src="images/image_003.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow" alt="I'm Hungry MeeMaw!">
   </div>
-  <div class="gallery">
-    <img src="images/image_004.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  <div class="gallery" tabindex="9">
+    <img src="images/image_004.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow" alt="Dottie Noire">
   </div>
-    <div class="gallery">
-    <img src="images/image_005.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+    <div class="gallery" tabindex="10">
+    <img src="images/image_005.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow" alt="She has a Human Face Sometimes">
   </div>
-     <div class="gallery">
-    <img src="images/image_006.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+     <div class="gallery" tabindex="11">
+    <img src="images/image_006.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow" alt="Dottie With Her Red Ball">
   </div>
 
-     <div class="gallery">
-    <img src="images/image_007.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+     <div class="gallery" tabindex="12">
+    <img src="images/image_007.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow" alt="Chillin Out with Belly Rubs">
   </div>
-       <div class="gallery">
-    <img src="images/image_008.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
-  </div>
-  
-  <div class="gallery">
-    <img src="images/image_009.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+       <div class="gallery" tabindex="13">
+    <img src="images/image_008.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow" alt="Going for a Car Ride!">
   </div>
   
-  <div class="gallery">
-    <img src="images/image_010.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow">
-  </div>
-   <div class="gallery">
-    <img src="images/image_011.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow">
-  </div>
-  <div class="gallery">
-    <img src="images/image_012.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow">
+  <div class="gallery" tabindex="14">
+    <img src="images/image_009.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow" alt="I Just Took a Bath">
   </div>
   
-  
-  
-  
+  <div class="gallery" tabindex="15">
+    <img src="images/image_010.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow" alt="Dottie's Other Family">
+  </div>
+   <div class="gallery" tabindex="16">
+    <img src="images/image_011.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow" alt="When Are You Going to Give Me a Treat?">
+  </div>
+  <div class="gallery" tabindex="17">
+    <img src="images/image_012.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow" alt="Riding in Cars with Boys">
+  </div>
   </div>
 </div>
 
@@ -154,16 +152,8 @@ document.getElementById("demo").innerHTML = d.toDateString();
       <div class="numbertext">12 / #</div>
         <img src="images/image_012-b.jpg" class="imageLightbox" alt="Riding in Cars with Boys">
     </div>
-	
-	
-	
-	
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  
-  
-  
-  
   <div class="caption-container">
       <p id="caption"></p>
     </div>
@@ -212,17 +202,15 @@ function showSlides(n) {
 	<!--End the carousel here-->
 
 </div>
-</div>
-<!--End Container Div --></div>
-
-<div id="footer" class="center">
-<div id="copyright" tabindex="">
+<div id="footer" class="center" tabindex="13" >
+<div id="copyright" tabindex="14">
    <footer>Copyright 2017&nbsp;&nbsp;&#9679;&nbsp;&nbsp;Created by Laura V. Guzman</footer>
-
 </div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
   </div>
-    <!-- Add font awesome icons for media queries -->
+  <!--End Container Div -->
+  </div>
+     <!-- Add font awesome icons for media queries -->
   <div id="socialMedia2">
 <a href="#" class="fa fa-facebook" tabindex=""></a>
 <a href="#" class="fa fa-twitter" tabindex=""></a>
