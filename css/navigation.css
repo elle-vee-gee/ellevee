@@ -7,19 +7,10 @@ a, navlink {
   text-decoration:none;
 }
 
-/* selected link */
-/* .active {
- text-decoration:none;
- border:2px solid #6D052D;
- padding-left:2px;
- padding-right:4px;
-}*/
-
 
 /* visited link */
 
 a:visited {
-  color: cyan;
   text-decoration:underline;
 }
 
