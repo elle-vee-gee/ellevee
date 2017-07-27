@@ -41,7 +41,8 @@
 		<a href="#" class="fa fa-youtube"></a>
   </div>
   <header id="header" class="pawBackground">
-    <div id="123"><nav>
+    <div id="123">
+	<nav>
       <h1 tabindex="1" class="center"><img src="images/yorkie-silhouette.png" alt="icon" id="dottiePic2">Dottie Girl<img src="images/yorkie-silhouette.png" alt="icon" id="dottiePic2"></h1>
       <ul>
   <li ><a class="active" href="index2.html" tabindex="2">Home</a></li>
@@ -60,10 +61,10 @@ document.getElementById("demo").innerHTML = d.toDateString();
 	</div>
   </header>
   <div id="block1">
-    <h2>Home</h2>
+    <h2 id="foo">Home</h2>
     <div id="block2">
       <figure><img src="images/Dottie-Collage.png" alt="Collage of Dottie Pictures" id="dottiePic" tabindex="5">
-        <figcaption><i>Image Source:</i> Dottie Collage by Laura V. Guzman</figcaption>
+        <figcaption>Image Source: Dottie Collage by Laura V. Guzman</figcaption>
       </figure>
     </div>
     <div id="block3" tabindex="6">
@@ -89,14 +90,17 @@ document.getElementById("demo").innerHTML = d.toDateString();
       
     </div>
 	</div>
+ <!-- Fab Code Starts Here -->
+  <div id="arrow-up"><a href="#foo"><i  class="fa fa-arrow-circle-up fa-5x"></i></a></div>
+    <!-- Fab Code Ends Here -->
  <!-- Add font awesome icons for media queries -->
   <div id="socialMedia2" class="center">
-<a href="#" class="fa fa-facebook" tabindex="13"></a>
-<a href="#" class="fa fa-twitter" tabindex="14"></a>
-<a href="#" class="fa fa-youtube" tabindex="15"></a>
+<a href="#" class="fa fa-facebook" ></a>
+<a href="#" class="fa fa-twitter" ></a>
+<a href="#" class="fa fa-youtube" ></a>
   </div>
-<div id="footer" class="center" tabindex="16">
-<div id="copyright" tabindex="10">
+<div id="footer" class="center" tabindex="13">
+<div id="copyright" tabindex="14">
        <footer>Copyright 2017&nbsp;&nbsp;&#9679;&nbsp;&nbsp;Created by Laura V. Guzman</footer>
 	</div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>

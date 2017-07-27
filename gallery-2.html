@@ -61,7 +61,7 @@ document.getElementById("demo").innerHTML = d.toDateString();
 	</div>
   </header>
   <div id="block1">
-    <h2>Gallery</h2>
+    <h2 id="foo">Gallery</h2>
     <div id="block2">
       <p>Here are some of my favorite pictures of Dottie Mae throughout the years.</p>
     </div>
@@ -221,20 +221,25 @@ function showSlides(n) {
 	<!--End the carousel here-->
 
 </div>
-<div id="footer" class="center" tabindex="13" >
-<div id="copyright" tabindex="14">
-   <footer>Copyright 2017&nbsp;&nbsp;&#9679;&nbsp;&nbsp;Created by Laura V. Guzman</footer>
-</div>
+
   <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
   </div>
-  <!--End Container Div -->
-  </div>
+  <!-- Fab Code Starts Here -->
+  <div id="arrow-up"><a href="#foo"><i  class="fa fa-arrow-circle-up fa-5x"></i></a></div>
+    <!-- Fab Code Ends Here -->
+  
      <!-- Add font awesome icons for media queries -->
   <div id="socialMedia2">
-<a href="#" class="fa fa-facebook" tabindex=""></a>
-<a href="#" class="fa fa-twitter" tabindex=""></a>
-<a href="#" class="fa fa-youtube" tabindex=""></a>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-youtube"></a>
   </div>
-
+  <!--Footer Container -->
+  <div id="footer" class="center" tabindex="18" >
+<div id="copyright" tabindex="19">
+   <footer>Copyright 2017&nbsp;&nbsp;&#9679;&nbsp;&nbsp;Created by Laura V. Guzman</footer>
+</div>
+<!--End Container Div -->
+  </div>
 </body>
 </html>
