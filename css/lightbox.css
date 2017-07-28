@@ -150,13 +150,14 @@ img.hover-shadow {
   margin: auto;
   padding: 0;
   max-width:100%;
+ 
 }
 
 /* The Close Button */
 .close {
   z-index:1;
   top:25px;
-  right:10px;
+  right:50px;
 }
 
 /* Next & previous buttons */
@@ -194,6 +195,10 @@ img.hover-shadow {
   padding: 8px 12px;
   top: 0;
   text-align:left;
+}
+
+.imageLightbox{
+  width:100% !important;
 }
 
 
