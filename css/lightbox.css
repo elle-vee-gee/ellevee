@@ -31,6 +31,7 @@
 .imageLightbox{
 	max-width: 100%;
     max-height: 100%;
+	margin-top:25px;
 }
 
 /* Modal Content */
@@ -71,7 +72,7 @@
 .next {
   cursor: pointer;
   position: absolute;
-  top: 45%;
+  top: 0;
   width: auto;
   padding: 16px;
  /* margin-top: -50px;*/
@@ -83,6 +84,8 @@
   border-radius: 3px;
   user-select: none;
   -webkit-user-select: none;
+  height:20px;
+  line-height:0.55;
 }
 
 /* Position the "next button" to the right */
@@ -140,7 +143,7 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
-
+/* *********************************************************************************************************  */
 /* Lightbox media queries */
 
 @media only screen and (max-width: 500px) {
@@ -165,20 +168,20 @@ img.hover-shadow {
 .next {
   cursor: pointer;
   position: absolute;
-  top: -20px;
-  padding: 16px;
-  font-size: 150%;
+  top: 0;
+
+
 }
 
 /* Position the "next button" to the right */
 .next {
-  right:35%;
+  right:20%;
   border-radius: 3px;
 }
 
 /* Position the "previous button" to the left */
 .prev {
-  left: 35%;
+  left: 20%;
   border-radius: 3px;
 }
 .caption-container {
@@ -194,7 +197,7 @@ img.hover-shadow {
   left:25%;
   padding: 8px 12px;
   top: 0;
-  text-align:left;
+  text-align:center;
 }
 
 .imageLightbox{
